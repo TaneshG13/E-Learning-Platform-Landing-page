@@ -1,0 +1,54 @@
+:root {
+    --color-blue-900: #13183F;
+    --color-blue-600: #666CA3;
+    --color-pink-600: #F74780;
+    --color-pink-300: #FFA7C3;
+    --color-grey: #83869A;
+    --color-white: #FFFFFF;
+    --gradient-pink: linear-gradient(#FF6F48, #F02AA6);
+    --gradient-purple: linear-gradient(#4851FF, #F02AA6);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+main {
+    overflow-x: clip;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    max-width: 35ch;
+    color: var(--color-grey);
+    line-height: 1.5;
+}
+
+img.logo {
+    transition: opacity 150ms ease-in-out;
+}
+
+.logo:hover{
+    opacity: 0.75;
+}
